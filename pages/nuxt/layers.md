@@ -4,7 +4,6 @@ You can extend various Nuxt applications to reuse components, utils, and configu
 
 ## Domain-Driven Design (DDD)
 
-
 ---
 
 ## Nuxt Layer vs. Module vs. Package
