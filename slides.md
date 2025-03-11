@@ -28,7 +28,11 @@ transition: fade-out
 src: ./pages/recap/index.md
 hide: false
 ---
-
+---
+transition: fade-out
+src: ./pages/sentry/index.md
+hide: false
+---
 ---
 transition: fade-out
 src: ./pages/nuxt/index.md
