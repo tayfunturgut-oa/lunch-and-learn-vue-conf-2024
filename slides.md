@@ -43,8 +43,11 @@ Presentation slides for developers
 The last comment block of each slide will be treated as slide notes. It will be visible and editable in Presenter Mode along with the slide. [Read more in the docs](https://sli.dev/guide/syntax.html#notes)
 -->
 
+
 ---
 transition: fade-out
+src: ./pages/nuxt/index.md
+hide: false
 ---
 
 # What is Slidev?
@@ -551,7 +554,7 @@ Learn more: [Mermaid Diagrams](https://sli.dev/features/mermaid) and [PlantUML D
 ---
 foo: bar
 dragPos:
-  square: 691,32,167,_,-16
+  square: -23,0,0,0
 ---
 
 # Draggable Elements
