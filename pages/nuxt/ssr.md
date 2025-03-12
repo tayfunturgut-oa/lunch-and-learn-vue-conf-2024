@@ -10,68 +10,39 @@ Nuxt is a free and open-source full-stack framework, and it provides an ecosyste
 
 ---
 
-# Server-Side Rendering (SSR)
+# Nuxt Directory Structure
 
-### Rendering
+`Nuxt 3`'s opinionated directory structure:
 
-<br>
-
-- Both the browser and server can *interpret* JavaScript code to turn Vue.js components into *HTML elements*. This step is called **rendering**.
-
-<br>
-
-### Universal Rendering
-
-<br>
-
-- Similar to traditional server-side rendering performed by PHP or Ruby applications. 
-
-<br>
-
-### Client-Side Rendering
-
-<br>
-
-- Out of the box, a traditional `Vue.js` application is rendered in the browser (or client). Then, Vue.js generates HTML elements after the browser downloads and parses all the JavaScript code.
-
-
----
-
-## SSR vs. Client Rendering
-
-<br>
-
-* `app.vue`
-
-```vue {all|2|9-14|2,4-6,12|all}
-<script setup lang="ts">
-const counter = ref(0); // executes in *both* server and client environments
-
-const handleClick = () => {
-  counter.value++; // executes only in a client environment
-};
-</script>
-
-<template>
-  <div>
-    <p>Count: {{ counter }}</p>
-    <button @click="handleClick">Increment</button>
-  </div>
-</template>
+```md {all|14|2|7|10}
+components/
+composables/
+content/
+layouts/
+middleware/
+modules/
+pages/
+plugins/
+public/
+server/
+shared/
+utils/
+app.vue
+nuxt.config.ts
 ```
-
 
 ---
 layout: two-cols
 ---
 
-# Nuxt Key Features
+# Some Nuxt Features
 
 ## 🔮 Server Engine
 
 Nuxt 3 comes with `Nitro`, a new open-source server engine based on `unjs/h3`.
 
-- Lightweight & minimalistic as in [Unix philosophy](https://en.wikipedia.org/wiki/Unix_philosophy)
+- Next gen server with built-in caching and data fetching.
+- Minimalistic as in [Unix philosophy](https://en.wikipedia.org/wiki/Unix_philosophy).
 - Runtime agnostic: Node.js, bun, deno, etc.
 - Built-in support for K/V storage
 
@@ -121,6 +92,32 @@ Thanks to its opinionated directory structure, Nuxt can auto-import your `compon
 
 ---
 
+# Server-Side Rendering (SSR)
+
+### Rendering
+
+<br>
+
+- Both the browser and server can *interpret* JavaScript code to turn Vue.js components into *HTML elements*. This step is called **rendering**.
+
+<br>
+
+### Universal Rendering
+
+<br>
+
+- Similar to traditional server-side rendering performed by PHP or Ruby applications. 
+
+<br>
+
+### Client-Side Rendering
+
+<br>
+
+- Out of the box, a traditional `Vue.js` application is rendered in the browser (or client). Then, Vue.js generates HTML elements after the browser downloads and parses all the JavaScript code.
+
+---
+
 ## And Many More...
 
 <br>
@@ -137,25 +134,3 @@ Thanks to its opinionated directory structure, Nuxt can auto-import your `compon
 
 Head out to the [Key Concepts](https://nuxt.com/docs/guide/concepts/) section of [Nuxt's Guide](https://nuxt.com/docs/guide) to learn more.
 
----
-
-# Nuxt Directory Structure
-
-`Nuxt 3`'s opinionated directory structure:
-
-```md {all|1|2|4|7|10|14}
-components/
-composables/
-content/
-layouts/
-middleware/
-modules/
-pages/
-plugins/
-public/
-server/
-shared/
-utils/
-app.vue
-nuxt.config.ts
-```
