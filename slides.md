@@ -32,6 +32,8 @@ Welcome to the
 
 recap!
 
+<sub class="text-[10px] text-gray">No dark mode, I know... But we look at dark screens all day!</sub>
+
 ---
 transition: fade-out
 src: ./pages/recap/index.md
