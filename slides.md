@@ -17,7 +17,10 @@ drawings:
 transition: slide-left
 # enable MDC Syntax: https://sli.dev/features/mdc
 mdc: true
+
 ---
+
+<img src="/vue.webp" class="absolute left-[50%] top-[50%] -translate-x-[50%] -translate-y-[50%]" />
 
 ---
 layout: center
@@ -28,16 +31,19 @@ Welcome to the
 # Vue Conference 2024
 
 recap!
+
 ---
 transition: fade-out
 src: ./pages/recap/index.md
 hide: false
 ---
+
 ---
 transition: fade-out
 src: ./pages/sentry/index.md
 hide: false
 ---
+
 ---
 transition: fade-out
 src: ./pages/nuxt/index.md
