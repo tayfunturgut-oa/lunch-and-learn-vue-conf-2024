@@ -18,6 +18,11 @@ transition: slide-left
 # enable MDC Syntax: https://sli.dev/features/mdc
 mdc: true
 ---
+
+---
+layout: center
+---
+
 Welcome to the 
 
 # Vue Conference 2024

@@ -18,6 +18,9 @@ enhancements that carried into 2024. It introduced a rewritten template compiler
 efficient reactivity system to reduce unnecessary re-renders. These changes improved compilation speed (benefiting build
 tools and IDE integrations) and made data updates more performant, with no breaking changes.
 
+<img src="/recap/Dead-4x.webp" class="absolute left-[48%] top-[35%] h-8" />
+<img src="/recap/BasketSpin-4x.webp" class="absolute left-[1%] top-[55%] h-20" />
+
 ---
 layout: center
 ---
@@ -37,6 +40,8 @@ improvements without breaking backwards compatibility. Notable enhancements incl
       Other SSR tweaks (a new `useId()` API and allowing controlled hydration mismatches) enhanced Vue’s ability to
       handle
       modern hydration and streaming patterns.</sub>
+
+<img src="/recap/Anime-4x.webp" class="absolute left-[6%] top-[5%] h-20" />
 
 ---
 layout: center
@@ -110,6 +115,8 @@ behind React in overall usage. Multiple industry surveys and usage reports give 
   Vue is used on about **0.8% of all websites** (~1.0% of the JS library market). Another source tracked over **11
   million live sites using React** versus about **2 million using Vue**.
 
+<img src="/recap/Stonks-4x.webp" class="absolute left-[40%] top-[5%] h-20" />
+
 ---
 layout: center
 ---
@@ -123,6 +130,8 @@ layout: center
 
 In summary, **Vue performed well in 2024 in terms of developer interest and community growth**, chipping away at
 Angular’s share and solidifying its reputation as a top-tier front-end tool.
+
+<img src="/recap/owoHacker-4x.webp" class="absolute left-[40%] top-[5%] h-20" />
 
 ---
 layout: center
@@ -141,6 +150,8 @@ In practice, by 2024 the two frameworks showed **comparable real-world performan
 different scenarios. Benchmarks showed near-identical scores on performance metrics, with initial render times on the
 order of <1s and millisecond-level UI updates in both frameworks.
 
+<img src="/recap/Performance-4x.webp" class="absolute left-[75%] top-[16%] h-20" />
+
 ---
 layout: center
 ---
@@ -153,15 +164,15 @@ Looking ahead, the Vue.js core team outlined a vision for **incremental improvem
   by compiling components into optimized JavaScript, thus achieving performance akin to compiler-only frameworks.
 - **No Imminent Vue 4 – Continued Evolution of Vue 3:** The core team has signaled that there are **no immediate plans
   for a Vue 4 release**, focusing instead on iterative improvements to Vue 3.x.
+- **Enhanced Developer Experience:** Plans to default to `<script setup>` and TypeScript in single-file components to
+  improve the development workflow.
+
+<img src="/recap/CloudsZWE-4x.webp" class="absolute left-[30%] top-[50%] h-8" />
 
 ---
 layout: center
 ---
 
-## Vue’s Roadmap and Goals for 2025
-
-- **Enhanced Developer Experience:** Plans to default to `<script setup>` and TypeScript in single-file components to
-  improve the development workflow.
 - **Ecosystem Updates (Nuxt, Pinia, Tooling):** Anticipation of Nuxt 4, updates in Pinia v3, and evolving tooling with
   Vite, aligning with Vue’s improvements.
 - **Stability and Backward Compatibility:** Commitment to maintaining stability, ensuring that upgrades remain painless
