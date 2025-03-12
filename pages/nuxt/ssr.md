@@ -14,7 +14,7 @@ Nuxt is a free and open-source full-stack framework, and it provides an ecosyste
 
 `Nuxt 3`'s opinionated directory structure:
 
-```md {all|14|2|7|10}
+```md {all|10,13,14|14|2|7|10}
 components/
 composables/
 content/

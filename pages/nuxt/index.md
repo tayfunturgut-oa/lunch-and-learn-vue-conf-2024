@@ -2,9 +2,9 @@
 
 - Nuxt 3
   - Nuxt Overview
-  - SSR
-  - Notable Features
   - Directory Structure
+  - Notable Features
+  - SSR
 
 - Nuxt Layers
   - Concept
